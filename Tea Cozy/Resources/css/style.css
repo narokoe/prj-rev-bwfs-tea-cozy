@@ -1,0 +1,177 @@
+/* Universal Styles */
+
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+/* Header*/
+
+div nav span {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  padding: 8px 0px 8px 10px;
+}
+
+.logo img {
+  display: flex;
+  width: auto;
+  opacity: 0.9;
+  padding: 8px 0px 8px 10px;
+  height: 50px;
+}
+
+/* Main Content Section */
+.content {
+  align-items: center;
+}
+
+/* Mission Statement Section*/
+
+.mission-banner {
+  width: 1200px;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  padding-top: 69px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.mission-statement {
+  width: 1200px;
+  height: auto;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+/* Tea of the Month Section */
+
+.month-specials {
+  width: 1000px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.month-text {
+  width: 1000px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.month-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: auto;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.month-img {
+  width: 300px;
+  text-align: center;
+  padding-right: 25px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.month-img img {
+  width: 300px;
+  height: 200px;
+}
+/* Locations Section */
+
+.locations {
+  position: relative;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  text-align: center;
+  z-index: 4;
+  margin-bottom: 15px;
+
+}
+
+.location-image-content {
+  background-color: black;
+  display: inline-flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 300px;
+  width: 300px;
+  z-index: 3;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+
+.location-background-image {
+  background-image: url("../images/img-locations-background.jpg");
+  width: 1200px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+/* Footer Section */
+
+footer {
+  width: 100%;
+  height: 200px;
+  display: block;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.copyright {
+  display: block;
+  padding-left: 20px;
+  text-align: left;
+}
